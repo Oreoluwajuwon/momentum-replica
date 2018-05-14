@@ -1,0 +1,161 @@
+@font-face{
+    font-family: monsterratbold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: monsterratmedium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face{
+    font-family: monsterratlight;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face{
+    font-family: monsterratextralight;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face{
+    font-family: monsterratsemibold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+body{
+    width: 100%;
+    max-height: 100%;
+}
+.background{
+    /* background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), */
+   background-image:  url('../img/bg.jpg');
+    background-size: cover;
+    text-align: center; 
+    color: white;
+}
+.search > input{
+    width: 30% !important;
+    margin: 3% 1% 0% 1% !important;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    /* background-color: #f1f1f1; */
+}
+.flex-container > div {
+    /* background-color: DodgerBlue; */
+    color: white;
+    width: 100%;
+    height: 100%;
+    /* margin: 10px; */
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin: 0% 3%;
+}
+#date{
+    font-size: 12pt !important;
+    font-family: monsterratlight !important;
+}
+.date-time{
+    /* float: right; */
+    /* width: 20% !important; */
+    text-align: right !important;
+}
+#hours{
+    font-size: 1.5em !important;
+    font-family: monsterratmedium;
+}
+#time{
+    font-size: 1em !important;
+    font-family: monsterratlight;
+}
+.greet-name{
+    /* width: 60%; */
+    margin: 0% auto !important;
+    margin-top: .5% !important;
+    /* text-align: center !important; */
+    /* display: none; */
+}
+.greetings{
+    font-size: 10pt;
+    font-family: monsterratextralight;
+    font-weight: 600;
+}
+p{
+    font-size: 20pt;
+    font-family: monsterratsemibold;
+    display: inline;
+}
+#username{
+    font-size: 12pt !important;
+}
+.background h3{
+    font-size: 15pt;
+    font-family: monsterratbold;
+    margin-top: 0% !important;
+    display: inline-block;
+}
+.goal{
+    margin: 0% auto;
+    margin-top: 15% !important;
+    text-align: center;
+    font-family: monsterratsemibold !important;
+    font-size: 20pt !important;
+}
+.goal-input{
+    margin: 0% auto;
+    width: 30% !important;
+    border-bottom: 5px;
+    text-align: center;
+    font-family: monsterratmedium;
+    margin-top: 2%;
+}
+#plantext{
+    font-style: italic;
+    text-transform: lowercase;
+}
+.plantext{
+    margin: 4% 0% !important;
+}
+.form-control{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-bottom: 2px #fff solid !important;
+    color: #fff  !important;
+    font-size: 10pt !important;
+    box-shadow: 0px;
+    border-radius: 0% !important;
+}
+::placeholder {
+    color: #fff;
+}
+.form-control:focus{
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+}
+.btn-lg{
+    margin: 1%;
+    color: black;
+    border-color: transparent;
+    border-radius: 0% !important;
+}
+.row-last{
+    margin-top: 1%;
+    padding: 0% 3%;
+}
+#quoteDisplay{
+    font-size: 10pt;
+    width: 40%;
+    /* padding-left: 25%; */
+    padding-top: 9%;
+    margin: 0% auto;
+    text-align: center;
+    font-family: monsterratlight;
+    word-spacing: 2px;
+    /* position: fixed; */
+}
+#weather{
+    font-size: 9pt !important;
+    font-weight: 100 !important;
+    font-family: monsterratlight !important;
+    float: left;
+    /* position: fixed; */
+    padding-top: 4%;
+}
